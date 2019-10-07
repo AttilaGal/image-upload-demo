@@ -1,3 +1,10 @@
+require('dotenv').config();
 const Logger = require('./logger');
+const { upload } = require('./uploader');
 
-Logger.info('Hello World!');
+async function start() {
+  Logger.info('======= started =======');
+  await upload('sansa.jpg', 'sansa.jpg');
+  Logger.info('****** finished *******');
+}
+start();
