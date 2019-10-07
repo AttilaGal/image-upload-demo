@@ -1,1 +1,1 @@
-dummy project for teting a file upload
+dummy project for testing a file upload
