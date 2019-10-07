@@ -1,0 +1,25 @@
+{
+  "name": "imeage-upload-demo",
+  "version": "1.0.0",
+  "description": "demo repo to test file upload to firebase",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "author": "Attila Gal",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^3.2.1",
+    "dotenv": "^8.1.0",
+    "eslint": "^6.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "jest": "^24.9.0"
+  }
+}
